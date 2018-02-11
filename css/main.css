@@ -1,0 +1,23 @@
+.pointer {
+  cursor: pointer;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("../assets/images/5529.jpg");
+
+  /* Set a specific height */
+  height: 80vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax h1 {
+  font-size: 6em;
+  font-family: 'Oleo Script', cursive;
+  letter-spacing: 0.1em;
+}
