@@ -1,4 +1,10 @@
 $(document).ready(function(){
+  $('#home').click(function(event) {
+    event.preventDefault();
+    $("html, body").animate({ 
+      scrollTop: $('#home-target').offset().top-98
+    }, 1000);
+  });
   $('#about-me').click(function(event) {
     event.preventDefault();
     $("html, body").animate({ 

@@ -17,7 +17,13 @@
 }
 
 .parallax h1 {
-  font-size: 6em;
+  font-size: 4em;
   font-family: 'Oleo Script', cursive;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
 }
+
+/* @media (max-width: 768px) {
+  .rigth-menu {
+    display: none;
+  }
+} */
