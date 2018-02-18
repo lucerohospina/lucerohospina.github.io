@@ -31,4 +31,16 @@ $(document).ready(function(){
   $('#esp-language').click(function(){
     window.location.href = 'index-esp.html'
   })
+
+  var scroll_pos = 0;
+  $(document).scroll(function() { 
+      scroll_pos = $(this).scrollTop();
+      if(scroll_pos > 15) {
+          $('header p').removeClass('text-white');
+          $('header p').addClass('font-weight-bold');
+      } else {
+          $('header p').addClass('text-white');
+          $('header p').removeClass('font-weight-bold');
+      }
+  });
 });

@@ -1,37 +1,59 @@
 .bg-green {
-  background-color: rgb(24, 99, 30);
+  background-color: rgba(0, 128, 0, 0.712);
+}
+
+.bg-light-blue {
+  /* background-color: #8DA9C4; */
+  background-color: #6DD3CE;
+}
+
+.light-blue {
+  /* color: #FFCF56; */
+  color: #E3D36F;
+  color: #6DD3CE;
 }
 
 .pointer {
   cursor: pointer;
 }
 
+header p:hover {
+  text-decoration: underline;
+}
+
 .parallax { 
-  /* The image used */
-  background-image: url("../assets/images/5529.jpg");
-
-  /* Set a specific height */
-  height: 80vh; 
-
-  /* Create the parallax scrolling effect */
+  background-image: url("../assets/images/pixel-art.jpg");
+  height: 65vh; 
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-body:not(h1) .parallax {
-  /* filter: blur(2px); */
-}
-
 .parallax h1 {
-  font-size: 4em;
+  font-size: 2.5em;
   font-family: 'Oleo Script', cursive;
   letter-spacing: 0.05em;
 }
 
-/* @media (max-width: 768px) {
-  .rigth-menu {
-    display: none;
+.position {
+  position: absolute;
+  top: 40%;
+}
+
+@media (min-width: 768px) {
+  .parallax {
+    background-image: url("../assets/images/pixel-art.jpg");
+    background-position: center center;
+    height: 80vh;
   }
-} */
+  .parallax h1 {
+    font-size: 7em;
+  }
+  .parallax p {
+    font-size: 3em;
+  }
+  .position {
+    top: 55%;
+  }
+}
