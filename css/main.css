@@ -1,5 +1,12 @@
+/* FONTS FAMILY*/
+.secondary-font {
+  font-family: 'Lobster', cursive;
+}
+
+/* BACKGROUNDS */
 .bg-green {
-  background-color: rgba(0, 128, 0, 0.712);
+  background-color: rgba(0, 128, 117, 0.712);
+  /* background-color: rgba(0, 128, 0, 0.712); */
 }
 
 .bg-light-blue {
@@ -7,20 +14,31 @@
   background-color: #6DD3CE;
 }
 
+.bg-jumbotron {
+  background-color: #e9ecef;
+}
+
+/* TEXTS */
 .light-blue {
   /* color: #FFCF56; */
   color: #E3D36F;
   color: #6DD3CE;
 }
 
+.jumbo-text {
+  color: #e9ecef;
+}
+
+ /* HOVER */
+ header p:hover {
+  text-decoration: underline;
+}
+
 .pointer {
   cursor: pointer;
 }
 
-header p:hover {
-  text-decoration: underline;
-}
-
+/* SECOND SECTION */
 .parallax { 
   background-image: url("../assets/images/pixel-art.jpg");
   height: 65vh; 
@@ -41,6 +59,7 @@ header p:hover {
   top: 40%;
 }
 
+/* MEDIA for desktop view */
 @media (min-width: 768px) {
   .parallax {
     background-image: url("../assets/images/pixel-art.jpg");

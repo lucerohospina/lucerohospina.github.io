@@ -36,10 +36,10 @@ $(document).ready(function(){
   $(document).scroll(function() { 
       scroll_pos = $(this).scrollTop();
       if(scroll_pos > 15) {
-          $('header p').removeClass('text-white');
+          $('header p').removeClass('jumbo-text');
           $('header p').addClass('font-weight-bold');
       } else {
-          $('header p').addClass('text-white');
+          $('header p').addClass('jumbo-text');
           $('header p').removeClass('font-weight-bold');
       }
   });
