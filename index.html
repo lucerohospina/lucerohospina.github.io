@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster|Oleo+Script" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">  
   <link rel="stylesheet" href="css/main.css">
-  <title>Document</title>
+  <title>Lucero Hospina</title>
 </head>
 <body>
   <header class="container-fluid bg-green fixed-top p-3">
@@ -17,10 +17,10 @@
         <p class="jumbo-text pointer"><span id="eng-languaje">english</span>/<span id="esp-language">español</span></p>
       </div>
       <div class="col-md-6 offset-md-3 d-flex flex-row justify-content-around">
-        <p class="jumbo-text pointer d-none d-md-flex" id="home">home</p>
-        <p class="jumbo-text pointer d-none d-md-flex" id="about-me">about me</p>
-        <p class="jumbo-text pointer d-none d-md-flex" id="projects">my projects</p>
-        <p class="jumbo-text pointer d-none d-md-flex mr-5" id="contact-me">contact me</p>
+        <p class="jumbo-text text-uppercase pointer d-none d-md-flex" id="home">home</p>
+        <p class="jumbo-text text-uppercase pointer d-none d-md-flex" id="about-me">about me</p>
+        <p class="jumbo-text text-uppercase pointer d-none d-md-flex" id="projects">my projects</p>
+        <p class="jumbo-text text-uppercase pointer d-none d-md-flex mr-5" id="contact-me">contact me</p>
       </div>
     </div>
   </header>
@@ -30,67 +30,76 @@
     <p class="wow bounceInUp position jumbo-text text-center font-weight-bold">front-end developer</p>
   </div>
   <section class="container-fluid bg-light-blue">
-    <div class="row">
-      <div class="col-12">
-        <div class="jumbotron mt-3 px-5"> 
-          <h1 class="secondary-font">"Getting into the tech world has been the best decision I ever made. My passion for numbers has finally found its way and now there is no moment I spend without thinking about code."</h1>
+    <div class="row" id="about-me-target">
+      <div class="col-12 col-md-6">
+        <div class="jumbotron mt-3 px-5 bg-jumbotron"> 
+          <h1 class="">About me</h1>
+          <br>
+          <h1 class="">"Getting into the tech world has been the best decision I ever made. My passion for numbers has finally found its way and now there isn't a moment I spend without thinking about code."</h1>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-md-4 offset-md-4 text-center">
+      <div class="col-12 col-md-6 text-center">
         <img class="img-fluid rounded-circle py-5" src="assets/images/lucero-hospina.JPG" alt="lucero-hospina">
       </div>
-    </div> 
-  </section>
-  <!-- <section class="container-fluid bg-light-blue">
-    <div class="row p-3" id="about-me-target">
+    </div>
+    <div class="row">
       <div class="col-12">
-        <div class="jumbotron">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <img class="img-fluid" src="assets/images/lucero-hospina.JPG" alt="lucerohospina">
-            </div>
-            <div class="col-12 col-md-6">
-              <h1 class="">Lucero Hospina</h1>
-              <p class="lead">Front-end developer and business management major</p>
-              <hr class="my-4">
-              <p>Getting into the tech world has been the best decision I ever made</p>
-              <p>My passion for numbers has finally found its way and now there is no moment I spend without thinking about code.</p>
+          <div class="jumbotron">
+            
+            <p class="lead">Laboratoria Sprint Awards!</p>
+            
+            <div class="d-flex flex-row justify-content-around text-center">
+              <figure>
+                <img class="img-fluid pointer rounded" src="assets/images/top_5_1_300x300.png" alt="top-5">
+              </figure>
+              <figure class="mx-1">
+                <img class="img-fluid pointer rounded" src="assets/images/best_squad_1_300x300.png" alt="best-squad">
+              </figure>
+              <figure>
+                <img class="img-fluid pointer rounded" src="assets/images/best_teamplayer_1_300x300.png" alt="team-player">
+              </figure>
+              <figure>
+                <img class="img-fluid pointer rounded" src="assets/images/Laboratoria_lover_1_300x300.png" alt="lab-lover">
+              </figure>
             </div>
           </div>
-        </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <section class="container-fluid bg-light-blue">
       <div class="row">
         <div class="col-12">
-            <div class="jumbotron"> 
-                <h1 class="">My Skills</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-              </div>
+          <div class="jumbotron"> 
+            <h1 class="">My Skills</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          </div>
         </div>
       </div>
   </section>
   <section class="container-fluid bg-light-blue">
     <div class="row" id="projects-target">
       <div class="col-12">
-          <div class="jumbotron">
+          <div class="jumbotron bg-jumbotron">
             <h1 class="">My Projects</h1>
             <p class="lead">These are some of my main projects during my time in Laboratoria's Bootcamp</p>
             <hr class="my-4">
             <div class="d-flex flex-row justify-content-around text-center">
               <figure>
-                <img class="img-fluid pointer rounded" src="assets/images/lyft_1_350x200.jpg" alt="project-1">
+                <a href="https://github.com/lucerohospina/codebook" target="_blank"><img class="img-fluid pointer rounded" src="assets/images/vista-splash_350x200.png" alt="project-1"></a>
+                <a class="btn btn-primary" href="https://lucerohospina.github.io/codebook/" role="button">Visit CodeBook</a>
+                <p>Social network for Laboratoria's former students</p>
               </figure>
               <figure class="mx-1">
-                <img class="img-fluid pointer rounded" src="assets/images/twitter_1_350x200.png" alt="project-2">
+                  <a href="https://github.com/lucerohospina/replicando-twitter" target="_blank"><img class="img-fluid pointer rounded" src="assets/images/twitter_1_350x200.png" alt="project-2"></a>
+                  <a class="btn btn-primary" href="https://lucerohospina.github.io/replicando-twitter/" role="button">Visit my Twitter</a>
+                  <p>This a Twitter clone developed with Jquery</p>
               </figure>
               <figure>
-                <img class="img-fluid pointer rounded" src="assets/images/star-wars_1_350x200.png" alt="project-3">
+                  <a href="https://github.com/lucerohospina/api-swapi" target="_blank"><img class="img-fluid pointer rounded" src="assets/images/star-wars_1_350x200.png" alt="project-3"></a>
+                  <a class="btn btn-primary p-1" href="https://lucerohospina.github.io/api-swapi/public" role="button">Visit SWapi</a>
+                  <p>In this page you can look for your favorite Star Wars characters</p> 
               </figure>
             </div>
           </div>
@@ -100,23 +109,25 @@
   <section class="container-fluid bg-light-blue">
     <div class="row" id="contact-me-target">
       <div class="col-12 col-md-12">
-        <div class="jumbotron">
+        <div class="jumbotron bg-jumbotron">
           <h1 class="">Contact me</h1>
           <p class="lead">Feel free to contact me!</p>
           <hr class="my-4">
           <div class="d-flex flex-row justify-content-around">
             <div class="d-flex flex-column">
-              <p class="text-center">my e-mail</p>
-              <a class="text-center" href="#" target="_blank"><i class="far fa-envelope fa-3x"></i></a>
+              
+              <a class="" href="#" target="_blank"><i class="far fa-envelope fa-3x"></i></a>
               <p>lucerojhp@gmail.com</p>             
             </div>
             <div class="d-flex flex-column">
-              <p>my linkedin</p>
-              <a class="text-center pointer" href="https://www.linkedin.com/in/lucerohospina/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>            
+              
+              <a class=" pointer" href="https://www.linkedin.com/in/lucerohospina/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
+              <p>https://www.linkedin.com/in/lucerohospina</p>          
             </div>
             <div class="d-flex flex-column">
-              <p>my github</p>
-              <a class="text-center pointer" href="https://github.com/lucerohospina" target="_blank"><i class="fab fa-github fa-3x"></i></a>            
+              
+              <a class="pointer" href="https://github.com/lucerohospina" target="_blank"><i class="fab fa-github fa-3x"></i></a> 
+              <p>https://github.com/lucerohospina</p>           
             </div>
           </div>
         </div>

@@ -5,8 +5,8 @@
 
 /* BACKGROUNDS */
 .bg-green {
-  background-color: rgba(0, 128, 117, 0.712);
-  /* background-color: rgba(0, 128, 0, 0.712); */
+  /* background-color: rgba(0, 128, 117, 0.712); */
+  background-color: rgba(0, 113, 128, 0.712);
 }
 
 .bg-light-blue {
@@ -16,6 +16,7 @@
 
 .bg-jumbotron {
   background-color: #e9ecef;
+  background-color: #fff5b2;
 }
 
 /* TEXTS */
@@ -26,7 +27,7 @@
 }
 
 .jumbo-text {
-  color: #e9ecef;
+  color: #fff;
 }
 
  /* HOVER */
