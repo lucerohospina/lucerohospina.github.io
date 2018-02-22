@@ -68,6 +68,10 @@
   padding-top:35%;
 }
 
+/* #projects-target img {
+  box-shadow: 10px;
+} */
+
 /* MEDIA for desktop view */
 @media (min-width: 768px) {
   .parallax {
