@@ -15,7 +15,7 @@
 }
 
 .bg-jumbotron {
-  background-color: #e9ecef;
+  /* background-color: #e9ecef; */
   background-color: #fff5b2;
 }
 
@@ -58,6 +58,14 @@
 .position {
   position: absolute;
   top: 40%;
+}
+
+#skills span {
+  font-size: 6em;
+}
+
+#skills h3 {
+  padding-top:35%;
 }
 
 /* MEDIA for desktop view */

@@ -6,11 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
   <link href="https://fonts.googleapis.com/css?family=Lobster|Oleo+Script" rel="stylesheet">
-  <link rel="stylesheet" href="css/animate.css">  
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="assets/icomoon/style.css">  
   <link rel="stylesheet" href="css/main.css">
   <title>Lucero Hospina</title>
 </head>
 <body>
+  <!-- HEADER -->
   <header class="container-fluid bg-green fixed-top p-3">
     <div class="row mt-2">
       <div class="col-md-2 offset-md-1">
@@ -24,64 +26,99 @@
       </div>
     </div>
   </header>
+  <!-- PARALLAX SECTION -->
   <div class="parallax d-flex align-items-center justify-content-center" id="home-target">
     <h1 class="wow bounceInLeft text-white text-center font-weight-bold pr-3">Lucero</h1>
     <h1 class="wow bounceInRight text-white text-center font-weight-bold ">Hospina</h1>
     <p class="wow bounceInUp position jumbo-text text-center font-weight-bold">front-end developer</p>
   </div>
-  <section class="container-fluid bg-light-blue">
-    <div class="row" id="about-me-target">
-      <div class="col-12 col-md-6">
-        <div class="jumbotron mt-3 px-5 bg-jumbotron"> 
-          <h1 class="">About me</h1>
-          <br>
-          <h1 class="">"Getting into the tech world has been the best decision I ever made. My passion for numbers has finally found its way and now there isn't a moment I spend without thinking about code."</h1>
+  <!-- ABOUT ME SECTION -->
+  <section class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-12 col-md-5 offset-md-1 mt-5">
+        <h1 class="text-white">About me</h1>
+        <h3 class="text-white">"Getting into the tech world has been the best decision I ever made. My passion for numbers has finally found its way and now there isn't a moment I spend without thinking about code."</h3>
+      </div>
+      <div class="col-12 col-md-4 offset-md-1">
+          <img class="img-fluid rounded-circle py-5" src="assets/images/lucero-hospina.JPG" alt="lucero-hospina">
+        </div>
+    </div>
+  </section>
+  <!-- SKILLS SECTION -->
+  <section class="container-fluid bg-dark" id="skills">
+    <div class="row">
+      <div class="col-12 col-md-5 offset-md-1 border">
+        <div class="row">
+          <div class="col-md-3 mt-5 mb-5 pt-5 text-center">
+            <span class="icon-html5"></span>
+            <p class="text-white mt-2">HTML5</p>    
+          </div>
+          <div class="col-md-3 mt-5 mb-5  pt-5 text-center">
+            <span class="icon-css3"></span>
+            <p class="text-white mt-2">CSS3</p>
+          </div>
+          <div class="col-md-3 mt-5 mb-5  pt-5 text-center">
+            <span class="icon-bootstrap"></span>
+            <p class="text-white mt-2">Bootstrap</p>
+          </div>
+          <div class="col-md-3 mt-5 mb-5 pt-5  text-center">
+            <span class="icon-javascript"></span>
+            <p class="text-white mt-2">JS</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 pt-5 pb-5 text-center">
+            <span class="icon-jquery"></span> 
+            <p class="text-white mt-2">JQuery</p>   
+          </div>
+          <div class="col-md-3 pt-5 pb-5 text-center">
+            <span class="icon-firebase"></span>
+            <p class="text-white mt-2">Firebase</p>
+          </div>
+          <div class="col-md-3 pt-5 pb-5 text-center">
+            <span class="icon-visualstudiocode"></span>
+            <p class="text-white mt-2">Visual Studio Code</p>
+          </div>
+          <div class="col-md-3 pt-5 pb-5 text-center">
+            <span class="icon-github"></span>
+            <p class="text-white mt-2">GitHub</p>
+          </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 text-center">
-        <img class="img-fluid rounded-circle py-5" src="assets/images/lucero-hospina.JPG" alt="lucero-hospina">
+      <div class="col-12 col-md-4 offset-md-1 border">
+        <h3 class="text-white subtitle">My main area de expertise is front-end development: HTML, CSS, JavaScript, Jquery, Bootstrap, Github.</h3>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECTS SECTION -->
+  <section class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-12 col-md-4 oofset-md-2 text-center">
+        <h1 class="text-white">My Projects</h1>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-10 offset-1 col-sm-6 offset-sm-3">
+        <img src="assets/images/geo_350x200.png" alt="geolocalization">
+      
+        <img src="assets/images/vista-splash_350x200.png" alt="codebook">
       </div>
     </div>
     <div class="row">
-      <div class="col-12">
-          <div class="jumbotron">
-            
-            <p class="lead">Laboratoria Sprint Awards!</p>
-            
-            <div class="d-flex flex-row justify-content-around text-center">
-              <figure>
-                <img class="img-fluid pointer rounded" src="assets/images/top_5_1_300x300.png" alt="top-5">
-              </figure>
-              <figure class="mx-1">
-                <img class="img-fluid pointer rounded" src="assets/images/best_squad_1_300x300.png" alt="best-squad">
-              </figure>
-              <figure>
-                <img class="img-fluid pointer rounded" src="assets/images/best_teamplayer_1_300x300.png" alt="team-player">
-              </figure>
-              <figure>
-                <img class="img-fluid pointer rounded" src="assets/images/Laboratoria_lover_1_300x300.png" alt="lab-lover">
-              </figure>
-            </div>
-          </div>
+      <div class="col-10 offset-1 col-sm-6 offset-sm-3">
+        <img src="assets/images/twitter_1_350x200.png" alt="twitter">
+      
+        <img src="assets/images/star-wars_1_350x200.png" alt="star wars">
       </div>
     </div>
   </section>
-  <section class="container-fluid bg-light-blue">
-      <div class="row">
-        <div class="col-12">
-          <div class="jumbotron"> 
-            <h1 class="">My Skills</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          </div>
-        </div>
-      </div>
-  </section>
-  <section class="container-fluid bg-light-blue">
+  
+    
+  
+  <!-- <section class="container-fluid bg-dark">
     <div class="row" id="projects-target">
       <div class="col-12">
-          <div class="jumbotron bg-jumbotron">
+          <div class="jumbotron">
             <h1 class="">My Projects</h1>
             <p class="lead">These are some of my main projects during my time in Laboratoria's Bootcamp</p>
             <hr class="my-4">
@@ -105,7 +142,7 @@
           </div>
         </div>
     </div>
-  </section>
+  </section> -->
   <section class="container-fluid bg-light-blue">
     <div class="row" id="contact-me-target">
       <div class="col-12 col-md-12">
