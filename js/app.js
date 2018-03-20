@@ -1,46 +1,23 @@
-$(document).ready(function(){
-  $('#home').click(function(event) {
-    event.preventDefault();
-    $("html, body").animate({ 
-      scrollTop: $('#home-target').offset().top-98
-    }, 1000);
-  });
-  $('#about-me').click(function(event) {
-    event.preventDefault();
-    $("html, body").animate({ 
-      scrollTop: $('#about-me-target').offset().top-98
-    }, 1000);
-  });
-  $('#projects').click(function(event) {
-    event.preventDefault();
-    $("html, body").animate({ 
-      scrollTop: $('#projects-target').offset().top-98
-    }, 1000);
-  });
-  $('#contact-me').click(function(event) {
-    event.preventDefault();
-    $("html, body").animate({ 
-      scrollTop: $('#contact-me-target').offset().top-98
-    }, 1000);
+window.addEventListener('load', function() {
+  var openMenu = document.getElementById("open-menu");
+  var closeMenu = document.getElementById("close-menu");
+
+  openMenu.addEventListener("click", openAnimatedMenu);
+  function openAnimatedMenu() {
+    document.getElementById("animated-menu").style.width = '40%';
+    console.log("HOLA");
+  };
+
+  closeMenu.addEventListener("click", closeAnimatedMenu);
+  function closeAnimatedMenu() {
+    document.getElementById("animated-menu").style.width = '0';
+  };
+
+  document.getElementById('english-button').addEventListener('click' , function(){
+    window.location.href = 'index.html';
   });
 
-  $('#eng-languaje').click(function(){
-    window.location.href = 'index.html'
-  })
-
-  $('#esp-language').click(function(){
-    window.location.href = 'index-esp.html'
-  })
-
-  var scroll_pos = 0;
-  $(document).scroll(function() { 
-      scroll_pos = $(this).scrollTop();
-      if(scroll_pos > 15) {
-          $('header p').removeClass('jumbo-text');
-          $('header p').addClass('font-weight-bold');
-      } else {
-          $('header p').addClass('jumbo-text');
-          $('header p').removeClass('font-weight-bold');
-      }
+  document.getElementById('spanish-button').addEventListener('click', function(){
+    window.location.href = 'index-esp.html';
   });
 });

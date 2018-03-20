@@ -1,91 +1,213 @@
-/* FONTS FAMILY*/
-.secondary-font {
+/* HEADER */
+
+.container {
+  border: 1px solid #FFEBCD;
+}
+
+header {
+  background-color: #FFEBCD;
+}
+
+header a {
+  color: #000080;
   font-family: 'Lobster', cursive;
+  text-decoration: none;
 }
 
-/* BACKGROUNDS */
-.bg-green {
-  /* background-color: rgba(0, 128, 117, 0.712); */
-  background-color: rgba(0, 113, 128, 0.712);
+header i {
+  color: #000080;
+  }
+
+.right-links {
+  font-size: 1.5em;
+  margin: 7px;
+  padding: 7px;
 }
 
-.bg-light-blue {
-  /* background-color: #8DA9C4; */
-  background-color: #6DD3CE;
+.right-links:hover {
+  background-color: #000080;
+  color: #ffff;
+  border-radius: 15px;
+  transition: 0.5s ease-out;
 }
 
-.bg-jumbotron {
-  /* background-color: #e9ecef; */
-  background-color: #fff5b2;
+.grouped-right-links {
+  text-align: center;
+  padding: 2%;
 }
 
-/* TEXTS */
-.light-blue {
-  /* color: #FFCF56; */
-  color: #E3D36F;
-  color: #6DD3CE;
+.grouped-left-links {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2%;
 }
 
-.jumbo-text {
-  color: #fff;
+.left-links:hover {
+  color: #9fcd39;
+  transition: 0.5s ease-out;
 }
 
- /* HOVER */
- header p:hover {
-  text-decoration: underline;
+#spanish-button {
+  padding-right: 10%;
+}
+
+/* SECTION */
+
+section {
+  padding-top: 20px;
+}
+
+section h1 {
+  color: #228B22;
+  font-family: 'Oleo Script', cursive;
+  font-size: 6em;
+  text-align: center;
+}
+
+section h2 {
+  color: #228B22;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* NAV */
+
+nav {
+  padding-top: 25px;
+}
+
+nav h1 {
+  color: #000080;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+}
+
+nav p {
+  font-family: 'Varela', sans-serif;
+}
+
+button {
+  background-color: #FFEBCD;
+  border: none;
+  border-radius: 5px;
+  color: #000080;
+  cursor: pointer;
+  font-family: 'Varela', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #000080;
+  color: #ffff;
+  transition: 0.5s ease-out;
+}
+
+/* MAIN */
+
+main {
+  padding: 20px;
+}
+
+main h3 {
+  color: #228B22;
+  font-size: 1.3em;
+  font-family: 'Varela Round', sans-serif;
+  margin-bottom: 1.8%;
+  text-align: center;
+}
+
+main p {
+  font-family: 'Varela', sans-serif;
+}
+
+main img {
+  width: 100%;
+}
+
+main button {
+  margin-top: 2%;
+}
+
+.card {
+  border: 1px solid #FFEBCD;
+  margin: 15px 0;
+  text-align: justify;
+}
+
+.projects-buttons {
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #FFEBCD;
+  padding: 20px;
+}
+
+footer p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* MENU ANIMADO */
+
+#animated-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #FFEBCD;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20%;
+}
+
+#animated-menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: 'Bungee', cursive;
+  font-size: 1em;
+  color: #000080;
+  cursor: pointer;
+  display: block;
+  transition: 0.3s;
+}
+
+#animated-menu a:hover {
+  color: #ffff;
+  background-color: #000080;
+  transition: 0.5s ease-out;
+}
+
+#animated-menu #close-menu {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 2em;
+  margin-left: 25%;
+}
+
+#animated-menu #close-menu:hover {
+  color: #ffff;
+}
+
+.contact-me-unit {
+  text-align: center;
+}
+
+.contact-me-p {
+  font-size: 0.8em;
 }
 
 .pointer {
   cursor: pointer;
-}
-
-/* SECOND SECTION */
-.parallax { 
-  background-image: url("../assets/images/pixel-art.jpg");
-  height: 65vh; 
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax h1 {
-  font-size: 2.5em;
-  font-family: 'Oleo Script', cursive;
-  letter-spacing: 0.05em;
-}
-
-.position {
-  position: absolute;
-  top: 40%;
-}
-
-#skills span {
-  font-size: 6em;
-}
-
-#skills h3 {
-  padding-top:35%;
-}
-
-/* #projects-target img {
-  box-shadow: 10px;
-} */
-
-/* MEDIA for desktop view */
-@media (min-width: 768px) {
-  .parallax {
-    background-image: url("../assets/images/pixel-art.jpg");
-    background-position: center center;
-    height: 80vh;
-  }
-  .parallax h1 {
-    font-size: 7em;
-  }
-  .parallax p {
-    font-size: 3em;
-  }
-  .position {
-    top: 55%;
-  }
 }
