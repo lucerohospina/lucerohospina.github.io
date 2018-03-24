@@ -6,6 +6,7 @@
 
 header {
   background-color: #FFEBCD;
+  position: fixed;
 }
 
 header a {
@@ -73,6 +74,7 @@ section h2 {
 
 .big-name {
   margin-bottom: 3%;
+  margin-top: 7%;
 }
 
 /* NAV */
@@ -222,4 +224,8 @@ footer p {
 .pointer:hover {
   color: #000080;
   transition: 0.5s ease-out;
+}
+
+[class*="icon-"] {
+  font-size: 3em;
 }
