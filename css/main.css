@@ -71,6 +71,10 @@ section h2 {
   text-align: center;
 }
 
+.big-name {
+  margin-bottom: 3%;
+}
+
 /* NAV */
 
 nav {
@@ -80,7 +84,8 @@ nav {
 nav h1 {
   color: #000080;
   font-family: 'Lobster', cursive;
-  font-size: 2em;
+  font-size: 2.2em;
+  text-decoration: underline;
 }
 
 nav p {
@@ -146,6 +151,7 @@ main button {
 
 footer {
   background-color: #FFEBCD;
+  margin-top: 3%;
   padding: 20px;
 }
 
@@ -209,5 +215,11 @@ footer p {
 }
 
 .pointer {
+  color: #000;
   cursor: pointer;
+}
+
+.pointer:hover {
+  color: #000080;
+  transition: 0.5s ease-out;
 }
