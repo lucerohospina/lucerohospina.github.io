@@ -69,6 +69,7 @@ section h2 {
   color: #228B22;
   font-family: 'Bubblegum Sans', cursive;
   font-size: 3em;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -92,6 +93,7 @@ nav h1 {
 
 nav p {
   font-family: 'Varela', sans-serif;
+  /* font-size: 1em; */
 }
 
 button {
