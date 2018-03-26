@@ -15,20 +15,22 @@ header a {
   text-decoration: none;
 }
 
-header i {
+/* header i {
   color: #000080;
-  }
+  font-family: 'Lobster', cursive;
+  } */
 
 .right-links {
-  font-size: 1.5em;
-  margin: 7px;
-  padding: 7px;
+  /* font-size: 1.5em; */
+  margin: 10px;
+  padding: 10px;
 }
 
 .right-links:hover {
   background-color: #000080;
   color: #ffff;
   border-radius: 15px;
+  padding-top: 2%;
   transition: 0.5s ease-out;
 }
 
@@ -195,8 +197,8 @@ footer a:hover {
 #animated-menu a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-family: 'Bungee', cursive;
-  font-size: 1em;
+  /* font-family: 'Bungee', cursive; */
+  /* font-size: 1em; */
   color: #000080;
   cursor: pointer;
   display: block;
@@ -209,15 +211,21 @@ footer a:hover {
   transition: 0.5s ease-out;
 }
 
+#animated-menu a i {
+  margin-right:2%;
+}
+
 #animated-menu #close-menu {
   position: absolute;
   top: 0;
   right: 25px;
+  font-family: 'Bungee', cursive;
   font-size: 2em;
   margin-left: 25%;
 }
 
 #animated-menu #close-menu:hover {
+  background-color: transparent !important;
   color: #ffff;
 }
 
