@@ -4,7 +4,7 @@ window.addEventListener('load', function() {
 
   openMenu.addEventListener("click", openAnimatedMenu);
   function openAnimatedMenu() {
-    document.getElementById("animated-menu").style.width = '45%';
+    document.getElementById("animated-menu").style.width = '80%';
     document.getElementById("animated-menu").style.height = '100vh';
     console.log("HOLA");
   };
